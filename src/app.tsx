@@ -1,6 +1,6 @@
-import { useState } from 'react';
+import { useState } from "react";
 // import { useCallback } from 'react';
-import Child from './Child';
+import Child from "./child";
 
 function App() {
   const [parentCount, setParentCount] = useState(0);
@@ -8,7 +8,7 @@ function App() {
   const [child2Count, setChild2Count] = useState(0);
   const [child3Count, setChild3Count] = useState(0);
 
-  console.log('Parent rendered');
+  console.log("Parent rendered");
 
   // Fix 1
   // const handleChild1Click = useCallback(() => {
